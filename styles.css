@@ -566,6 +566,18 @@ body {
     }
 
     .whatsapp-tooltip {
-        display: none;
+        right: 60px;
+        font-size: 12px;
+        padding: 6px 12px;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .whatsapp-button:hover {
+        transform: none;
+    }
+
+    .whatsapp-button:hover i {
+        transform: none;
     }
 } 
